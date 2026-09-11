@@ -1,0 +1,33 @@
+📦 Project Files Structure:
+
+Generated: Fri Sep 11 06:33:11 UTC 2026
+
+/tmp/vakhd-project
+/tmp/vakhd-project/.gitignore
+/tmp/vakhd-project/Cargo.toml
+/tmp/vakhd-project/FILE_MANIFEST.txt
+/tmp/vakhd-project/README.md
+/tmp/vakhd-project/docs
+/tmp/vakhd-project/docs/ALL_FIXES_SUMMARY.md
+/tmp/vakhd-project/docs/BUILD_FIX_QUICK_REFERENCE.md
+/tmp/vakhd-project/docs/COMPILATION_FIXES.md
+/tmp/vakhd-project/docs/DAEMON_COMPONENTS.md
+/tmp/vakhd-project/docs/FILES_GUIDE.md
+/tmp/vakhd-project/docs/FINAL_COMPILATION_FIXES.md
+/tmp/vakhd-project/docs/IMPLEMENTATION.md
+/tmp/vakhd-project/docs/IMPLEMENTATION_SUMMARY.md
+/tmp/vakhd-project/docs/INDEX.md
+/tmp/vakhd-project/docs/PACKET_FORMAT_FIX.md
+/tmp/vakhd-project/docs/QUICK_START.md
+/tmp/vakhd-project/edge-simulator
+/tmp/vakhd-project/edge-simulator/edge_streamer.py
+/tmp/vakhd-project/presentation
+/tmp/vakhd-project/presentation/vakhd_presentation.pptx
+/tmp/vakhd-project/src
+/tmp/vakhd-project/src/ingestion.rs
+/tmp/vakhd-project/src/main.rs
+/tmp/vakhd-project/src/protocol.rs
+
+File Count Summary:
+===================
+Total files: 20

@@ -1,0 +1,24 @@
+[package]
+name = "vakhd"
+version = "0.1.0"
+edition = "2021"
+description = "Distributed Edge-Fog Gateway Daemon"
+authors = ["Ramakrishnan Sankarasubramanian <24bce5221@student.srmist.edu.in>"]
+
+[dependencies]
+# Minimal dependencies - build from first principles
+nix = { version = "0.27", features = ["net", "poll"] }  # Linux epoll syscalls
+libc = "0.2"                                             # C library bindings
+
+[dev-dependencies]
+criterion = "0.5"  # Benchmarking
+
+[[bin]]
+name = "vakhd"
+path = "src/main.rs"
+
+[profile.release]
+opt-level = 3
+lto = true
+codegen-units = 1
+strip = true
